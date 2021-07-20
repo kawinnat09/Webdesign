@@ -1,23 +1,20 @@
-/* 0,0,2,0 */
-.outer{
-    color: orangered;
+*{
+    font-size: 60px;
+}
+#box1{
+    background-color: rgb(14, 247, 255);
+    width: 300px;
+    padding: 30px;
+    border: 10px solid violet;
 }
 
-/* 0,0,1,0 */
-.inner{
-    color: brown;
-}
-
-/* 0,1,0,0 */
-#unique{
-    color: blueviolet;
-}
-
-/* 0,0,0,2 */
-h1, h2{
-    font-size: large;
-}
-/* 0,1,1,1 */
-#unique .inner h2{
-    font-size: large;
+/* width = total size */
+/* (300px - 60 - 20) */
+/* 220px + 60px + 20px = 300px.) */
+#box2{
+    background-color: tomato;
+    width: 300px;
+    padding: 30px;
+    border: 10px solid greenyellow;
+    box-sizing: border-box;
 }

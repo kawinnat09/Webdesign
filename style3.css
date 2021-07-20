@@ -1,0 +1,15 @@
+#box1{
+    background-color: cadetblue;
+    padding: 30px;
+    border: 20px solid orange;
+    margin: 10px;
+}
+#box2{
+    background-color: teal;
+    margin: 40px;
+}
+
+.warpper{
+    display: flex;
+    flex-direction: row;
+}
